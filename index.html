@@ -11,7 +11,7 @@
         <header>
             <h1>Income and cost project</h1>
 
-            <input type="text"> Income source name
+            <input type="text" /> Income source name
 
             <div class="schools">
                 <h2>Scoli</h2>
@@ -20,35 +20,14 @@
                     <h3>Armonia</h3>
 
                     <form id="add-new-student-form">
-                        <input
-                            type="text"
-                            id="new-student-input"
-                            placeholder="Name"
-                        />
-                        <input type="radio" name="rate"/>40
-                        <input type="radio" name="rate"/>45
-                        <input type="radio"name="rate"/>50
-
-                        <input
-                            type="submit"
-                            id="new-student-submit"
-                            value="Add"
-                        /><br />
-                    </form>
-                </div>
-
-                <div class="ariodante">
-                    <h3>Ariodante</h3>
-
-                    <form id="add-new-student-form">
-                        <input
-                            type="text"
-                            id="new-student-input"
-                            placeholder="Name"
-                        />
-                        <input type="radio" name="rate"/>40
-                        <input type="radio" name="rate"/>45
-                        <input type="radio"name="rate"/>50
+                        <input type="text" name="name" placeholder="Name" />
+                        <select>
+                            <option value="40" name="40">40Ron</option>
+                            <option value="45" name="45">45Ron</option>
+                            <option value="50" name="50">50Ron</option>
+                            <option value="55" name="55">55Ron</option>
+                            <option value="60" name="60">60Ron</option>
+                        </select>
 
                         <input
                             type="submit"
