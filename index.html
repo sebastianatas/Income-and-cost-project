@@ -5,44 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
-        <title>Cost and income</title>
+        <title>Income sources</title>
     </head>
     <body>
         <header>
-            <h1>Income and cost project</h1>
+            <h1>Income tracker project</h1>
 
-            <input type="text" /> Income source name
+            <input type="text" placeholder="Income Source" class="js-income-input">
+            <button onclick="
+                addIncomeSource();
+            
+            ">Add</button>
 
-            <div class="schools">
-                <h2>Scoli</h2>
-
-                <div class="armonia">
-                    <h3>Armonia</h3>
-
-                    <form id="add-new-student-form">
-                        <input type="text" name="name" placeholder="Name" />
-                        <select>
-                            <option value="40" name="40">40Ron</option>
-                            <option value="45" name="45">45Ron</option>
-                            <option value="50" name="50">50Ron</option>
-                            <option value="55" name="55">55Ron</option>
-                            <option value="60" name="60">60Ron</option>
-                        </select>
-
-                        <input
-                            type="submit"
-                            id="new-student-submit"
-                            value="Add"
-                        /><br />
-                    </form>
-                </div>
-            </div>
-
-            <div class="gigs">
-                <h2>Gigs</h2>
-            </div>
-        </header>
-
-        <section></section>
+            <div class="js-income-list"></div>
     </body>
 </html>
